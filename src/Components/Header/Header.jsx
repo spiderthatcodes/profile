@@ -2,11 +2,13 @@ import React from 'react';
 import { Container } from './style';
 
 const Header = () => {
-    const date = new Date();
+    const date = new Date().toLocaleDateString();
 
     return (
         <Container>
-            <h1>This will be the header</h1>
+            <h1>Jessica Dickerson</h1>
+            <h2>Software Developer &amp; Scrum Master</h2>
+            <p>{date}</p>
         </Container>
     )
 }
