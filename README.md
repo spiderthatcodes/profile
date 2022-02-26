@@ -1,5 +1,5 @@
-#Profile for Jessica Dickerson
+# Profile for Jessica Dickerson
 
-##This profile is very much under construction
+## This profile is very much under construction
 
-###Currently utilizes HTML, JavaScript, React, and Styled Components
+### Currently utilizes HTML, JavaScript, React, and Styled Components
