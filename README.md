@@ -2,4 +2,4 @@
 
 ## This profile is very much under construction
 
-### Currently utilizes HTML, JavaScript, React, and Styled Components
+### Currently utilizes HTML, JavaScript, React, and utilizes React Materialize for styling
