@@ -1,8 +1,9 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
 export const Container = styled.div`
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: baseline;
-`;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 0 20px;
+`
