@@ -46,6 +46,7 @@ function Sections() {
           <p>Project details</p>
         </div>
       </div>
+      <div className="section white" />
 
     </div>
   );

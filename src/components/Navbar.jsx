@@ -6,7 +6,7 @@ function Nav() {
   return (
     <Navbar
       fixed
-      className="pink darken-3"
+      className="black"
       centerLogo
       alignLinks="right"
       brand={(
@@ -18,7 +18,13 @@ function Nav() {
       menuIcon={<Icon>Menu</Icon>}
     >
       <NavItem>
-        <a href="mailto:jessicaldickerson@outlook.com"><Icon>email</Icon></a>
+        Project One
+      </NavItem>
+      <NavItem>
+        Project Two
+      </NavItem>
+      <NavItem>
+        Project Three
       </NavItem>
     </Navbar>
   );
