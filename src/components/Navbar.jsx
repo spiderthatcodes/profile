@@ -6,18 +6,20 @@ function Nav() {
   return (
     <Navbar
       fixed
-      className="green darken-1"
+      className="pink darken-3"
+      centerLogo
       alignLinks="right"
       brand={(
         <a className="brand-logo" href="/">
-          Logo
+          Jessica Dickerson
         </a>
             )}
       id="mobile-nav"
       menuIcon={<Icon>Menu</Icon>}
     >
-      <NavItem>Item 1</NavItem>
-      <NavItem>Item 2</NavItem>
+      <NavItem>
+        <a href="mailto:jessicaldickerson@outlook.com"><Icon>email</Icon></a>
+      </NavItem>
     </Navbar>
   );
 }
