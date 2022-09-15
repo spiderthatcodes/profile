@@ -2,6 +2,7 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React, { useEffect } from 'react';
 import M from 'materialize-css';
+import { SkillContainer } from './style';
 
 const chandelier = require('../images/chandelier.jpg');
 const spiral = require('../images/spiral.jpg');
@@ -29,6 +30,30 @@ function Sections() {
             position is a full stack developer role with <strong>Java/SpringBoot</strong> on the
             backend and <strong>TypeScript/React</strong> on the frontend. You can check out my some of my work in the project links above. Enjoy!
           </p>
+          <h4>Languages, Frameworks, and other Tech Skills</h4>
+          <SkillContainer>
+            <ul>
+              <li>JavaScript/TypeScript</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+            <ul>
+              <li>JavaScript/TypeScript</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+            <ul>
+              <li>JavaScript/TypeScript</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>CSS</li>
+              <li>HTML</li>
+            </ul>
+          </SkillContainer>
         </div>
       </div>
 
